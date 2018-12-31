@@ -1,0 +1,25 @@
+Open up the Build folder and run the "AI Project Pathfinding.exe"
+Once the program has started just watch the agent go to all the find a path to each 'collectable' object. 
+When the agent has been to all the objects a single cycle is complete.
+Then all the 'collectable' objects are respawned and the agent will do the same all over again.
+This will repeat 3 times and the data for the agents total distance, total nodes traveled, and the total time are logged.
+When all 3 cycles are complete it will display the information on the left side of the screen.
+
+Color Codes:
+-Agent is blue
+-Collectables are red
+
+More Info:
+-For more information on whats going on read the source code and the comments within.
+
+Side Note:
+Breadth first search wont work for some reason. Multiple implementations have been tried but all results
+in OutOfMemoryException. Many tweaks have been made trying to fix this problem.
+The code for BFS is still in the PathFinding.cs class but it is never used or the program will cras
+Originally the data from A* would be compared to the data of BFS.
+
+
+*** READ ***
+Within this zip file there are 3 folders, Build, Source Code, and AI Project Pathfinding.
+If you plan to load up the project in Unity, Open Unity and select, Select Project and click the fold AI Project Pathfinding
+and the project will be loaded up. Obviously the folder must be extracted from the zip first.
